@@ -1,4 +1,3 @@
-import React from 'react';
 import { createBrowserRouter } from 'react-router-dom';
 import MainLayOut from '../LayOut/MainLayOut';
 import Home from '../Pages/Home/Home';
@@ -12,6 +11,7 @@ const Route = createBrowserRouter([
         children: [
             {
                 path: '/',
+                loader: () => fetch('/donations.json'),
                 element: <Home></Home>
                 
             },
