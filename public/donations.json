@@ -5,7 +5,7 @@
         "category": "health",
         "category_bg": "#0052FF33",
         "card_bg": "#0052FF26",
-        "text_button_bg": "#008000",
+        "text_button_bg": "#0052FF",
         "description": "Help fund critical medical research to find cures and treatments for life-threatening diseases.",
         "price": "$50 Donation"
     },
@@ -15,7 +15,7 @@
         "category": "food",
         "category_bg": "#F8714733",
         "card_bg": "#F8714726",
-        "text_button_bg": "#ff4500",
+        "text_button_bg": "#F87147",
         "description": "Make a difference by providing meals to those in need. No one should go to bed hungry.",
         "price": "$25 Donation"
     },
@@ -25,7 +25,7 @@
         "category": "clothing",
         "category_bg": "#79C23F33",
         "card_bg": "#79C23F26",
-        "text_button_bg": "#0000cd",
+        "text_button_bg": "#79C23F",
         "description": "Donate warm clothing to help people in cold regions stay comfortable during harsh winters.",
         "price": "$20 Donation"
     },
@@ -35,7 +35,7 @@
         "category": "education",
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
-        "text_button_bg": "#228b22",
+        "text_button_bg": "#FF444A",
         "description": "Support access to quality education for underprivileged children. Every child deserves a chance to learn.",
         "price": "$30 Donation"
     },
@@ -45,7 +45,7 @@
         "category": "health",
         "category_bg": "#0052FF33",
         "card_bg": "#0052FF26",
-        "text_button_bg": "#008000",
+        "text_button_bg": "#0052FF",
         "description": "Provide immediate medical assistance to those affected by emergencies and disasters.",
         "price": "$75 Donation"
     },
@@ -55,7 +55,7 @@
         "category": "food",
         "category_bg": "#F8714733",
         "card_bg": "#F8714726",
-        "text_button_bg": "#ff4500",
+        "text_button_bg": "#F87147",
         "description": "Support programs that ensure children have access to nutritious meals for healthy growth.",
         "price": "$35 Donation"
     },
@@ -65,7 +65,7 @@
         "category": "clothing",
         "category_bg": "#79C23F33",
         "card_bg": "#79C23F26",
-        "text_button_bg": "#0000cd",
+        "text_button_bg": "#79C23F",
         "description": "Donate essential supplies to homeless shelters to provide comfort and warmth to those in need.",
         "price": "$40 Donation"
     },
@@ -75,7 +75,7 @@
         "category": "education",
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
-        "text_button_bg": "#228b22",
+        "text_button_bg": "#FF444A",
         "description": "Help talented students pursue their dreams by providing scholarships for higher education.",
         "price": "$50 Donation"
     },
@@ -85,7 +85,7 @@
         "category": "health",
         "category_bg": "#0052FF33",
         "card_bg": "#0052FF26",
-        "text_button_bg": "#008000",
+        "text_button_bg": "#0052FF",
         "description": "Promote mental well-being by funding mental health services and raising awareness about mental health issues.",
         "price": "$40 Donation"
     },
@@ -95,7 +95,7 @@
         "category": "food",
         "category_bg": "#F8714733",
         "card_bg": "#F8714726",
-        "text_button_bg": "#ff4500",
+        "text_button_bg": "#F87147",
         "description": "Provide immediate food assistance to families facing hunger due to unexpected crises.",
         "price": "$50 Donation"
     },
@@ -105,7 +105,7 @@
         "category": "clothing",
         "category_bg": "#79C23F33",
         "card_bg": "#79C23F26",
-        "text_button_bg": "#0000cd",
+        "text_button_bg": "#79C23F",
         "description": "Support children's education by donating school uniforms to those in need.",
         "price": "$15 Donation"
     },
@@ -115,7 +115,7 @@
         "category": "education",
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
-        "text_button_bg": "#228b22",
+        "text_button_bg": "#FF444A",
         "description": "Encourage students' interest in science, technology, engineering, and math through educational programs.",
         "price": "$25 Donation"
     }
