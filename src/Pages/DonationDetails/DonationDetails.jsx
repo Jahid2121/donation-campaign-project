@@ -21,9 +21,16 @@ const DonationDetails = () => {
             return toast.success('Successfully Donated! Go to donations pages for more information')
         }
         else{
-            donationArray.push(...donationList, donation)
+
+            
+            
+                donationArray.push(...donationList, donation)
             localStorage.setItem('donates', JSON.stringify(donationArray))
             return toast.success('Successfully Donated! Go to donations pages for more information')
+            
+
+            
+            
         }
 
     }
