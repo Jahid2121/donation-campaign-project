@@ -1,122 +1,150 @@
 [
     {
-        "picture": "https://i.ibb.co/drVRqsr/Health.png",
+        "id": 1,
+        "picture":[ "https://i.ibb.co/drVRqsr/Health.png",
+        "https://i.ibb.co/28NF8CL/Rectangle-health-4284.png"],
         "title": "Support Medical Research",
         "category": "health",
         "category_bg": "#0052FF33",
         "card_bg": "#0052FF26",
         "text_button_bg": "#0052FF",
         "description": "Help fund critical medical research to find cures and treatments for life-threatening diseases.",
-        "price": "$50 Donation"
+        "price": "50 "
     },
     {
-        "picture": "https://i.ibb.co/n6vCxSm/Food.png",
+        "id": 2,
+        "picture":[ "https://i.ibb.co/n6vCxSm/Food.png",
+        "https://i.ibb.co/26GzR6c/Rectangle-food-4287-2.png"],
         "title": "Feed the Hungry",
         "category": "food",
         "category_bg": "#F8714733",
         "card_bg": "#F8714726",
         "text_button_bg": "#F87147",
         "description": "Make a difference by providing meals to those in need. No one should go to bed hungry.",
-        "price": "$25 Donation"
+        "price": "25 "
     },
     {
-        "picture": "https://i.ibb.co/bsq3CfG/Clothing.png",
+        "id": 3,
+        "picture": ["https://i.ibb.co/bsq3CfG/Clothing.png",
+        "https://i.ibb.co/RHcqVvj/Rectangle-clothing-4287.png"
+    ],
         "title": "Warm Clothing Drive",
         "category": "clothing",
         "category_bg": "#79C23F33",
         "card_bg": "#79C23F26",
         "text_button_bg": "#79C23F",
         "description": "Donate warm clothing to help people in cold regions stay comfortable during harsh winters.",
-        "price": "$20 Donation"
+        "price": "20 "
     },
     {
-        "picture": "https://i.ibb.co/SBhz49t/Education.png",
+        "id": 4,
+        "picture": ["https://i.ibb.co/SBhz49t/Education.png",
+        "https://i.ibb.co/nf3ZTW9/Rectangle-education-4287-1.png"],
+        
         "title": "Education for Underprivileged Kids",
         "category": "education",
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
         "text_button_bg": "#FF444A",
         "description": "Support access to quality education for underprivileged children. Every child deserves a chance to learn.",
-        "price": "$30 Donation"
+        "price": "30 "
     },
     {
-        "picture": "https://i.ibb.co/drVRqsr/Health.png",
+        "id": 5,
+        "picture":[ "https://i.ibb.co/drVRqsr/Health.png",
+        "https://i.ibb.co/28NF8CL/Rectangle-health-4284.png"],
         "title": "Emergency Medical Aid",
         "category": "health",
         "category_bg": "#0052FF33",
         "card_bg": "#0052FF26",
         "text_button_bg": "#0052FF",
         "description": "Provide immediate medical assistance to those affected by emergencies and disasters.",
-        "price": "$75 Donation"
+        "price": "75 "
     },
     {
-        "picture": "https://i.ibb.co/n6vCxSm/Food.png",
+        "id": 6,
+        "picture":[ "https://i.ibb.co/n6vCxSm/Food.png",
+        "https://i.ibb.co/26GzR6c/Rectangle-food-4287-2.png"],
         "title": "Nutrition for Children",
         "category": "food",
         "category_bg": "#F8714733",
         "card_bg": "#F8714726",
         "text_button_bg": "#F87147",
         "description": "Support programs that ensure children have access to nutritious meals for healthy growth.",
-        "price": "$35 Donation"
+        "price": "35 "
     },
     {
-        "picture": "https://i.ibb.co/bsq3CfG/Clothing.png",
+        "id": 7,
+        "picture": ["https://i.ibb.co/bsq3CfG/Clothing.png",
+        "https://i.ibb.co/RHcqVvj/Rectangle-clothing-4287.png"
+    ],
         "title": "Homeless Shelter Supplies",
         "category": "clothing",
         "category_bg": "#79C23F33",
         "card_bg": "#79C23F26",
         "text_button_bg": "#79C23F",
         "description": "Donate essential supplies to homeless shelters to provide comfort and warmth to those in need.",
-        "price": "$40 Donation"
+        "price": "40 "
     },
     {
-        "picture": "https://i.ibb.co/SBhz49t/Education.png",
+        "id": 8,
+        "picture": ["https://i.ibb.co/SBhz49t/Education.png",
+        "https://i.ibb.co/nf3ZTW9/Rectangle-education-4287-1.png"],
         "title": "Scholarships for Students",
         "category": "education",
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
         "text_button_bg": "#FF444A",
         "description": "Help talented students pursue their dreams by providing scholarships for higher education.",
-        "price": "$50 Donation"
+        "price": "50 "
     },
     {
-        "picture": "https://i.ibb.co/drVRqsr/Health.png",
+        "id": 9,
+        "picture":[ "https://i.ibb.co/drVRqsr/Health.png",
+        "https://i.ibb.co/28NF8CL/Rectangle-health-4284.png"],
         "title": "Support Mental Health Services",
         "category": "health",
         "category_bg": "#0052FF33",
         "card_bg": "#0052FF26",
         "text_button_bg": "#0052FF",
         "description": "Promote mental well-being by funding mental health services and raising awareness about mental health issues.",
-        "price": "$40 Donation"
+        "price": "40 "
     },
     {
-        "picture": "https://i.ibb.co/n6vCxSm/Food.png",
+        "id": 10,
+        "picture":[ "https://i.ibb.co/n6vCxSm/Food.png",
+        "https://i.ibb.co/26GzR6c/Rectangle-food-4287-2.png"],
         "title": "Emergency Food Relief",
         "category": "food",
         "category_bg": "#F8714733",
         "card_bg": "#F8714726",
         "text_button_bg": "#F87147",
         "description": "Provide immediate food assistance to families facing hunger due to unexpected crises.",
-        "price": "$50 Donation"
+        "price": "50 "
     },
     {
-        "picture": "https://i.ibb.co/bsq3CfG/Clothing.png",
+        "id": 11,
+        "picture": ["https://i.ibb.co/bsq3CfG/Clothing.png",
+        "https://i.ibb.co/RHcqVvj/Rectangle-clothing-4287.png"
+    ],
         "title": "School Uniforms for Kids",
         "category": "clothing",
         "category_bg": "#79C23F33",
         "card_bg": "#79C23F26",
         "text_button_bg": "#79C23F",
         "description": "Support children's education by donating school uniforms to those in need.",
-        "price": "$15 Donation"
+        "price": "15 "
     },
     {
-        "picture": "https://i.ibb.co/SBhz49t/Education.png",
+        "id": 12,
+        "picture": ["https://i.ibb.co/SBhz49t/Education.png",
+        "https://i.ibb.co/nf3ZTW9/Rectangle-education-4287-1.png"],
         "title": "STEM Education Programs",
         "category": "education",
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
         "text_button_bg": "#FF444A",
         "description": "Encourage students' interest in science, technology, engineering, and math through educational programs.",
-        "price": "$25 Donation"
+        "price": "25 "
     }
 ]
