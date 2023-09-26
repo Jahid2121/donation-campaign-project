@@ -41,7 +41,7 @@
         "picture": ["https://i.ibb.co/SBhz49t/Education.png",
         "https://i.ibb.co/nf3ZTW9/Rectangle-education-4287-1.png"],
         
-        "title": "Education for Underprivileged Kids",
+        "title": "Education for Kids",
         "category": "education",
         "category_bg": "#FF444A33",
         "card_bg": "#FF444A26",
@@ -51,18 +51,6 @@
     },
     {
         "id": 5,
-        "picture":[ "https://i.ibb.co/drVRqsr/Health.png",
-        "https://i.ibb.co/28NF8CL/Rectangle-health-4284.png"],
-        "title": "Emergency Medical Aid",
-        "category": "health",
-        "category_bg": "#0052FF33",
-        "card_bg": "#0052FF26",
-        "text_button_bg": "#0052FF",
-        "description": "Provide immediate medical assistance to those affected by emergencies and disasters.",
-        "price": "75 "
-    },
-    {
-        "id": 6,
         "picture":[ "https://i.ibb.co/n6vCxSm/Food.png",
         "https://i.ibb.co/26GzR6c/Rectangle-food-4287-2.png"],
         "title": "Nutrition for Children",
@@ -72,9 +60,10 @@
         "text_button_bg": "#F87147",
         "description": "Support programs that ensure children have access to nutritious meals for healthy growth.",
         "price": "35 "
+        
     },
     {
-        "id": 7,
+        "id": 6,
         "picture": ["https://i.ibb.co/bsq3CfG/Clothing.png",
         "https://i.ibb.co/RHcqVvj/Rectangle-clothing-4287.png"
     ],
@@ -85,11 +74,23 @@
         "text_button_bg": "#79C23F",
         "description": "Donate essential supplies to homeless shelters to provide comfort and warmth to those in need.",
         "price": "40 "
+        
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/drVRqsr/Health.png",
+        "title": "Emergency Medical Aid",
+        "category": "health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "text_button_bg": "#0052FF",
+        "description": "Provide immediate medical assistance to those affected by emergencies and disasters.",
+        "price": "75 "
+        
     },
     {
         "id": 8,
-        "picture": ["https://i.ibb.co/SBhz49t/Education.png",
-        "https://i.ibb.co/nf3ZTW9/Rectangle-education-4287-1.png"],
+        "picture": "https://i.ibb.co/SBhz49t/Education.png",
         "title": "Scholarships for Students",
         "category": "education",
         "category_bg": "#FF444A33",
@@ -100,9 +101,8 @@
     },
     {
         "id": 9,
-        "picture":[ "https://i.ibb.co/drVRqsr/Health.png",
-        "https://i.ibb.co/28NF8CL/Rectangle-health-4284.png"],
-        "title": "Support Mental Health Services",
+        "picture":"https://i.ibb.co/drVRqsr/Health.png",
+        "title": " Mental Health Services",
         "category": "health",
         "category_bg": "#0052FF33",
         "card_bg": "#0052FF26",
@@ -112,8 +112,7 @@
     },
     {
         "id": 10,
-        "picture":[ "https://i.ibb.co/n6vCxSm/Food.png",
-        "https://i.ibb.co/26GzR6c/Rectangle-food-4287-2.png"],
+        "picture": "https://i.ibb.co/n6vCxSm/Food.png",
         "title": "Emergency Food Relief",
         "category": "food",
         "category_bg": "#F8714733",
@@ -124,21 +123,7 @@
     },
     {
         "id": 11,
-        "picture": ["https://i.ibb.co/bsq3CfG/Clothing.png",
-        "https://i.ibb.co/RHcqVvj/Rectangle-clothing-4287.png"
-    ],
-        "title": "School Uniforms for Kids",
-        "category": "clothing",
-        "category_bg": "#79C23F33",
-        "card_bg": "#79C23F26",
-        "text_button_bg": "#79C23F",
-        "description": "Support children's education by donating school uniforms to those in need.",
-        "price": "15 "
-    },
-    {
-        "id": 12,
-        "picture": ["https://i.ibb.co/SBhz49t/Education.png",
-        "https://i.ibb.co/nf3ZTW9/Rectangle-education-4287-1.png"],
+        "picture": "https://i.ibb.co/SBhz49t/Education.png",
         "title": "STEM Education Programs",
         "category": "education",
         "category_bg": "#FF444A33",
@@ -146,5 +131,17 @@
         "text_button_bg": "#FF444A",
         "description": "Encourage students' interest in science, technology, engineering, and math through educational programs.",
         "price": "25 "
+       
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/bsq3CfG/Clothing.png",    
+        "title": "School Uniforms for Kids",
+        "category": "clothing",
+        "category_bg": "#79C23F33",
+        "card_bg": "#79C23F26",
+        "text_button_bg": "#79C23F",
+        "description": "Support children's education by donating school uniforms to those in need.",
+        "price": "15 "
     }
 ]
