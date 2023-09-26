@@ -49,8 +49,8 @@ const PieRechart = () => {
             label={renderCustomizedLabel}
           >
             
-          <Cell fill='#FF444A'/>
           <Cell fill='#00C49F'/>
+          <Cell fill='#FF444A'/>
            
           </Pie>
           
