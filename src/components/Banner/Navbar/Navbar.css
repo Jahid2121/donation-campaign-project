@@ -1,0 +1,10 @@
+.content {
+    display: block;
+
+}
+
+.overlay {
+    position: absolute;
+    background-image: url('https://i.ibb.co/PTn1R6G/Rectangle-4281.png');
+    background-repeat: no-repeat;
+}
