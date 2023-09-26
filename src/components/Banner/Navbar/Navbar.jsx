@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="">
       <nav className="flex flex-col md:flex-row justify-between md:mr-12 mt-14 md:mt-12">
         <img className="w-1/4 md:ml-20 ml-32" src="/public/Logo.png" alt="" />
-        <ul className="flex ml-7 gap-10 mt-6">
+        <ul className="flex ml-9 gap-10 mt-6">
           <li>
             <NavLink
               to="/"

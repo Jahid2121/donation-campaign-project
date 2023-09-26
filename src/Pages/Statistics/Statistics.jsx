@@ -6,8 +6,8 @@ const Statistics = () => {
     <div>
       <PieRechart></PieRechart>
     </div>
+    
   );
 };
 
 export default Statistics;
-// fill={colors[index]}

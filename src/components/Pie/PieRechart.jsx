@@ -1,5 +1,5 @@
 import  { useEffect, useState } from 'react';
-import { Cell, Pie, PieChart } from 'recharts';
+import { Cell, Pie, PieChart, ResponsiveContainer } from 'recharts';
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent,  }) => {
@@ -37,7 +37,8 @@ const PieRechart = () => {
     },[])   
     return (
         <div >
-             <PieChart width={1000} height={500}>
+            <ResponsiveContainer width="100%" height={300}>
+            <PieChart>
           <Pie
             data={chartData}
             cx="50%"
@@ -55,6 +56,7 @@ const PieRechart = () => {
           </Pie>
           
         </PieChart>
+            </ResponsiveContainer>
         <div className='flex justify-around '>
             <div className='ml-32 flex items-center'>
             <p>Your Donation</p>

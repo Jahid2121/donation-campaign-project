@@ -1,12 +1,13 @@
 import { useState } from "react";
+import '../Banner/Navbar/Navbar.css'
 const Banner = ({donations, find, setFind, setSearch ,search}) => {
     const handleSearch = () => {
         setSearch(!search)
     }
     return (
-        <div>
-            <h2 className='text-center text-4xl font-bold mt-4 md:mt-48'>I Grow By Helping People In Need</h2>
-            <div className='text-center'>
+        <div className='overlay p-52 bg-opacity-50 container mx-auto'>
+            <h2 className='text-center text-4xl font-bold  '>I Grow By Helping People In Need</h2>
+            <div className='text-center '>
 
 
             <input placeholder="Search here..." type="text" className='w-64 border-2 rounded-lg h-12' onChange={e=> setFind(e.target.value)}/>
