@@ -4,14 +4,15 @@ const SingleDonation = ({donation}) => {
 
 
 
-    const {id, picture, title, category, category_bg, card_bg, text_button_bg, description, price } = donation || {}
+    const {id, picture, title, category, category_bg, card_bg, text_button_bg } = donation || {}
     return (
         <Link to={`/donationDetails/${id}`}>
-        <div className="flex flex-col">
+        <div className="flex flex-col ">
             <img className="" src={picture} alt="" />
-            <div className={`p-4 bg-[${card_bg}] grow`}>
-            <h4  className={`w-20 rounded-lg text-center text-[14px] text-[${text_button_bg}] bg-[${category_bg}] `}>{category}</h4>
-            <h3 className={`mt-3 text-[${text_button_bg}]`}>{title}</h3>
+            <div style={{background: `${card_bg}`}} className="p-4  grow">
+            <h4 style={{background: `${category_bg}`, color: `${text_button_bg}`}}  className=" w-20 rounded-lg text-center text-[14px]">{category}</h4>
+
+            <h3 style={{color: `${text_button_bg}`}} className="mt-3" >{title}</h3>
             </div>
         </div>
         </Link>
