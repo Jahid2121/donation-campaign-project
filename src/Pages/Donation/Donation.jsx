@@ -20,7 +20,7 @@ const Donation = () => {
             {noDonationData ? <p className="flex items-center justify-center text-center h-[80vh]">{noDonationData}</p>
                 :
                 <div>
-                    <div className="grid grid-cols-2 gap-6">
+                    <div className="grid grid-cols-2 gap-6 mt-20  mb-10">
                 {
                     showAll ? 
                     donated?.map(donation => <DonatedList key={donation.id} donation={donation}></DonatedList>)
@@ -29,7 +29,13 @@ const Donation = () => {
                 }
                 </div>
                  {
-                    donated.length > 4 && !showAll ? <button onClick={() => setShowAll(!showAll)} className='flex justify-center items-center text-center btn bg-green-500'>See All</button> : ''
+                    donated.length > 4 && !showAll
+                     ?
+                     <div className="flex justify-center mt-12">
+                        <button onClick={() => setShowAll(!showAll)} className=' btn bg-green-500'>See All</button>
+                    </div>
+                     :
+                      ''
                     
                  }
                 </div>
