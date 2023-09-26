@@ -19,9 +19,9 @@ const PieRechart = () => {
     ]
     setChartData(data)
 
+   
 
-    },[]) // in here
-
+    },[])   
     return (
         <div>
              <PieChart width={400} height={400}>
@@ -35,6 +35,9 @@ const PieRechart = () => {
             dataKey="value"
             nameKey="name"
           >
+            
+          <Cell fill='#FF444A'/>
+          <Cell fill='#00C49F'/>
            
           </Pie>
         </PieChart>
