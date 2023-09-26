@@ -42,11 +42,16 @@ const DonationDetails = () => {
     
     
     return (
-        <div className="ml-40 mt-16 w-[900px]" >
+        <div className="ml-40 mt-16 w-[900px] relative" >
+            <div className="bg-blend-overlay">
             <img className="w-3/4" src={picture} alt="" />
-            <button onClick={handleDonation} className="btn relative flex btn-primary -mt-16 ml-6">Donate ${price}</button>
+            <div  className="bg-[#0B0B0B80] w-[675px] h-20 -mt-20 absolute overflow-hidden"></div>
+            <button style={{background: `${text_button_bg}`}} onClick={handleDonation} className="btn relative flex  -mt-16 ml-6">Donate ${price}</button>
             <h4 className="mt-10 text-4xl font-bold">{title}</h4>
-            <p>{description}</p>
+            </div>
+
+
+            <p className="mb-20">{description}</p>
             <Toaster></Toaster>
         </div>
     );

@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="">
       <nav className="flex justify-between mr-12 mt-12">
         <img className="w-1/4 ml-20" src="/public/Logo.png" alt="" />
         <ul className="flex gap-10 mt-6">
