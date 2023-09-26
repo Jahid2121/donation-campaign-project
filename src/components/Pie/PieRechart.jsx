@@ -58,11 +58,11 @@ const PieRechart = () => {
         </PieChart>
             </ResponsiveContainer>
         <div className='flex flex-col md:flex-row  '>
-            <div className='ml-8 mb-2 md:ml-96 flex items-center'>
+            <div className='ml-8 mb-2 md:ml-44 lg:ml-96 flex items-center'>
             <p>Your Donation</p>
             <p className='bg-[#00C49F] ml-3 w-24 h-3'></p>
             </div>
-            <div className=' ml-8 md:mr-52 mb-4 flex items-center'>
+            <div className=' ml-8 md:mr-32 lg:mr-52 mb-4 flex items-center'>
             <p>Total Donation</p>
             <p  className='bg-[#FF444A] ml-3 w-24 h-3'></p>
             </div>
