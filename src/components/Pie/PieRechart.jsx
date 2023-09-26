@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import { Cell, Pie, PieChart } from 'recharts';
 
 const RADIAN = Math.PI / 180;
-const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
+const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent,  }) => {
   const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
   const x = cx + radius * Math.cos(-midAngle * RADIAN);
   const y = cy + radius * Math.sin(-midAngle * RADIAN); 
-
 
 
   return (
@@ -37,14 +36,14 @@ const PieRechart = () => {
 
     },[])   
     return (
-        <div>
-             <PieChart width={400} height={400}>
+        <div >
+             <PieChart width={1000} height={500}>
           <Pie
             data={chartData}
             cx="50%"
             cy="50%"
             labelLine={false}
-            outerRadius={80}
+            outerRadius={150}
             dataKey="value"
             nameKey="name"
             label={renderCustomizedLabel}
@@ -56,6 +55,16 @@ const PieRechart = () => {
           </Pie>
           
         </PieChart>
+        <div className='flex justify-around '>
+            <div className='ml-32 flex items-center'>
+            <p>Your Donation</p>
+            <p className='bg-[#00C49F] ml-3 w-24 h-3'></p>
+            </div>
+            <div className='mr-32 flex items-center'>
+            <p>Total Donation</p>
+            <p  className='bg-[#FF444A] ml-3 w-24 h-3'></p>
+            </div>
+        </div>
         </div>
     );
 };
