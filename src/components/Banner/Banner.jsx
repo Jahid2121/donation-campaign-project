@@ -5,7 +5,7 @@ const Banner = ({donations, find, setFind, setSearch ,search}) => {
     }
     return (
         <div>
-            <h2 className='text-center text-4xl font-bold mt-52'>I Grow By Helping People In Need</h2>
+            <h2 className='text-center text-4xl font-bold mt-4 md:mt-48'>I Grow By Helping People In Need</h2>
             <div className='text-center'>
 
 
