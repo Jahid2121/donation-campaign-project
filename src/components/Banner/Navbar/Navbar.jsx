@@ -4,10 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="flex justify-between">
-        <h3 className="flex flex-col">
-            <span>
-        Donation
-            </span> Campaign</h3>
+        <img src="" alt="" />
         <ul className="flex gap-10">
           <li>
             <NavLink

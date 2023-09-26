@@ -1,10 +1,13 @@
+import PieRechart from "../../components/Pie/PieRechart";
 
 const Statistics = () => {
-    return (
-        <div>
-            <p>PieChart</p>
-        </div>
-    );
+  
+  return (
+    <div>
+      <PieRechart></PieRechart>
+    </div>
+  );
 };
 
 export default Statistics;
+// fill={colors[index]}
