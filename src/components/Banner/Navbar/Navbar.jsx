@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <nav className="flex justify-between">
-        <img src="" alt="" />
+        <img className="w-1/4" src="/public/Logo.png" alt="" />
         <ul className="flex gap-10">
           <li>
             <NavLink
