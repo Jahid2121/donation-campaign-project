@@ -4,7 +4,6 @@ const Banner = ({donations, find, setFind, setSearch ,search}) => {
     const handleSearch = () => {
         setSearch(!search)
     }
-    // console.log(search);
     return (
         <div className="" >
             <h2 className='text-center text-4xl font-bold mt-52'>I Grow By Helping People In Need</h2>
