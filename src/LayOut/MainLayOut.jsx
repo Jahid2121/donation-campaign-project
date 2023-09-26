@@ -4,7 +4,7 @@ import '../components/Banner/Navbar/Navbar.css'
 const MainLayOut = () => {
     return (
         <>
-        <div className='overlay'>
+        <div className='overlay bg-opacity-50 container mx-auto'>
         <div className='container mx-auto content'>
             <Navbar></Navbar>
             <Outlet></Outlet>

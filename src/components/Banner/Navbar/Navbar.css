@@ -4,7 +4,17 @@
 }
 
 .overlay {
-    position: absolute;
+    position: relative;
     background-image: url('https://i.ibb.co/PTn1R6G/Rectangle-4281.png');
     background-repeat: no-repeat;
+    isolation: isolate;
+    
+}
+.overlay::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: white;
+    opacity: .9;
 }
