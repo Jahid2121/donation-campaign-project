@@ -32,7 +32,7 @@ const Donation = () => {
                     donated.length > 4 && !showAll
                      ?
                      <div className="flex justify-center mt-12">
-                        <button onClick={() => setShowAll(!showAll)} className=' btn bg-green-500'>See All</button>
+                        <button onClick={() => setShowAll(!showAll)} className='text-white btn bg-green-500'>See All</button>
                     </div>
                      :
                       ''
