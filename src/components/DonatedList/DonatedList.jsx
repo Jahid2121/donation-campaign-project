@@ -10,7 +10,7 @@ const DonatedList = ({donation}) => {
 
             <h3 className="mt-2 text-xl font-bold" >{title}</h3>
             <p style={{color: `${text_button_bg}`}} className="font-semibold ml-1 my-1">${price}.00</p>
-            <Link to={`/donationDetails/${id}`}>
+            <Link to={`/donationDetails/${id}`} state={title}>
             <button style={{background: `${text_button_bg}`}}  className="p-2 rounded-lg text-white">View Details</button>
             </Link>
             </div>

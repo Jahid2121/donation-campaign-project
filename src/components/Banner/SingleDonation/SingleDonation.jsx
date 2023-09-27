@@ -6,7 +6,7 @@ const SingleDonation = ({donation, searchFor}) => {
 
     const {id, picture, title, category, category_bg, card_bg, text_button_bg } = donation || {}
     return (
-        <Link to={`/donationDetails/${id}`}>
+        <Link to={`/donationDetails/${id}`} state={title}>
         <div className="flex flex-col">
             <img className="" src={picture} alt="" />
             <div style={{background: `${card_bg}`}} className="p-4">
