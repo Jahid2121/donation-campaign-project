@@ -7,8 +7,10 @@ const MainLayOut = () => {
 
         <div className='container mx-auto  '>
             <Navbar></Navbar>
-            
-        <Outlet></Outlet>
+            <div className='max-w-[990px]'>
+
+            </div>
+        <Outlet></Outlet>   
         </div>
         
         </>

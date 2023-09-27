@@ -10,7 +10,7 @@ const Banner = ({donations, find, setFind, setSearch ,search}) => {
             <div className='text-center '>
 
 
-            <input placeholder="  Search here..." type="text" className='w-72 border-2 rounded-l-lg h-12' onChange={e=> setFind(e.target.value)}/>
+            <input placeholder="Search here..." type="text" className='w-72 border-2 focus:p-3 rounded-l-lg h-12 pl-4' onChange={e=> setFind(e.target.value)}/>
             <button onClick={handleSearch} className='p-3
             rounded-r-lg mt-8 bg-[#FF444A] text-white'>Search</button>
             </div>
