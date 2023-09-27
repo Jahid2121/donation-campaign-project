@@ -20,7 +20,7 @@ const Donation = () => {
             {noDonationData ? <p className="flex items-center justify-center text-center h-[80vh]">{noDonationData}</p>
                 :
                 <div>
-                    <div className="grid grid-cols-1 w-[350px] md:w-[990px] md:grid-cols-2 gap-4  mt-20  mx-auto mb-10">
+                    <div className="grid grid-cols-1 w-[350px] lg:w-[990px] md:w-[750px] md:grid-cols-2 gap-4  mt-20  mx-auto mb-10">
                 {
                     showAll ? 
                     donated?.map(donation => <DonatedList key={donation.id} donation={donation}></DonatedList>)
