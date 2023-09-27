@@ -1,7 +1,7 @@
 import '../Banner/Navbar/Navbar.css'
 const Banner = ({ setFind, setSearch ,search}) => {
     const handleSearch = () => {
-        setSearch(!search)
+        setSearch(true)
     }
     return (
         <div className='overlay p-3 md:p-52 bg-opacity-50 container mx-auto'>
